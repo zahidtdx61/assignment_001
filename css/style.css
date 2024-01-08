@@ -21,12 +21,18 @@ html {
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 2%;
+    margin-bottom: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: radial-gradient(circle, rgba(240, 240, 240, 0.075) 0%, rgba(0,0,0,0.85) 100%), url("../assets/newYearBanner.png");
+    background-image: radial-gradient(
+            circle,
+            rgba(240, 240, 240, 0.075) 0%,
+            rgba(0, 0, 0, 0.85) 100%
+        ),
+        url("../assets/newYearBanner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -43,4 +49,39 @@ html {
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 1%;
+}
+
+#offer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 5%;
+}
+
+#offer-percentage {
+    color: red;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#message {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+#catagory-msg {
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#offer-img {
+    width: 800px;
+    height: 500px;
 }
