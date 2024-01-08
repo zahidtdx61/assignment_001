@@ -13,15 +13,18 @@ html {
     box-sizing: inherit;
 }
 
-#header {
+.center-card {
     width: 1200px;
     height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+
+#header {
     color: white;
     font-family: Merriweather;
-    border-radius: 10px;
-    margin: 0 auto;
     margin-top: 2%;
-    margin-bottom: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,4 +87,49 @@ html {
 #offer-img {
     width: 800px;
     height: 500px;
+}
+
+#banner {
+    padding: 70px;
+    background-image: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(255, 254, 245, 0.075) 100%
+        ),
+        url("../assets/2024.png"), url("../assets/dance.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right center, center;
+    background-size: cover cover;
+    color: white;
+}
+
+#welcome {
+    width: 650px;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 7px;
+    margin-bottom: 2%;
+}
+
+.welcome-msg {
+    width: 650px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+#welcome-join {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 0 30px;
+}
+
+#welcome-join:hover {
+    color: red;
 }
