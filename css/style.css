@@ -96,11 +96,13 @@ html {
             rgba(0, 0, 0, 1) 0%,
             rgba(255, 254, 245, 0.075) 100%
         ),
-        url("../assets/2024.png"), url("../assets/dance.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left, right center, center;
-    background-size: cover cover;
+        url("../assets/dance.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 #welcome {
@@ -132,4 +134,47 @@ html {
 
 #welcome-join:hover {
     color: red;
+}
+
+#venue {
+    height: 450px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: Inter;
+    background-image: linear-gradient(
+        180deg,
+        rgba(253, 150, 150, 0.2) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.venue-details {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.venue-red {
+    color: red;
+}
+
+.join-btn {
+    color: white;
+    background-color: red;
+    border: 0;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    margin: 2% auto;
 }
