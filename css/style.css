@@ -484,3 +484,58 @@ html {
 #ash-color {
     color: rgba(7, 2, 17, 0.6);
 }
+
+/* writing css for footer section */
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: #070211;
+}
+
+.footer-container {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-line {
+    height: 1px;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+#address {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+#house-address {
+    width: 220px;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 2%;
+}
+
+.social-media-logo{
+    height: 40px;
+    width: 40px;
+}
+
+#copyright{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% auto;
+}
