@@ -175,6 +175,88 @@ html {
     font-weight: 600;
     padding: 10px 15px;
     border-radius: 5px;
-
     margin: 2% auto;
 }
+
+#new-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 1200px;
+    margin: 2% auto;
+}
+
+#offer-announce {
+    width: 33%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+}
+
+#offer-announce > h4 {
+    color: red;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-bottom: 3%;
+}
+
+#offer-announce > h2 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+
+#offer-announce > p {
+    width: 350px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+#offer-img-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offer-img {
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#offer-description {
+    width: 33%;
+}
+
+#offer-description > h1 {
+    color: red;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+#offer-description > p {
+    width: 350px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 3%;
+}
+
+#offer-description > img {
+    height: 100x;
+    width: 100px;
+} 
