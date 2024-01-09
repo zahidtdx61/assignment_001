@@ -178,8 +178,11 @@ html {
     margin: 2% auto;
 }
 
+/* new offer segment css */
+
 #new-offer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 400px;
@@ -189,12 +192,9 @@ html {
 
 #offer-announce {
     width: 33%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: start; */
 }
 
-#offer-announce > h4 {
+#offer-def {
     color: red;
     font-family: Inter;
     font-size: 1.1rem;
@@ -202,7 +202,7 @@ html {
     margin-bottom: 3%;
 }
 
-#offer-announce > h2 {
+#offer-coming {
     color: black;
     font-family: Merriweather;
     font-size: 2rem;
@@ -210,7 +210,7 @@ html {
     margin-bottom: 3%;
 }
 
-#offer-announce > p {
+#offer-announce-msg {
     width: 350px;
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
@@ -259,4 +259,4 @@ html {
 #offer-description > img {
     height: 100x;
     width: 100px;
-} 
+}
