@@ -260,3 +260,69 @@ html {
     height: 100x;
     width: 100px;
 }
+
+#holiday-offer {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#holiday-offer-def{
+    flex-grow: 1;
+}
+
+#holiday-offer-percentage{
+    flex-grow: 1;
+}
+
+#holiday-offer-msg{
+    flex-grow: 1;
+}
+
+#holiday-offer-img-container{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+#holiday-left-container{
+    width: 400px;
+    height: 300px;
+    z-index: 15;
+}
+
+#holiday-left-img {
+    width: 400px;
+    height: 300px;
+    z-index: 15;
+    margin-bottom: -380px;
+    margin-left: 100px;
+}
+
+#holiday-right-conatiner{
+    background-image: url('../assets/shopping.png');
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+#holiday-right-img{
+    height: 150px;
+    width: 150px;
+    margin-left: -80px;
+    margin-top: 80px;
+}
+
+#holiday-footer-img{
+    width: 1200px;
+    height: 100px;
+    background-image: url('../assets/rectangle.png');
+    background-size: cover;
+    background-position: center;
+}
