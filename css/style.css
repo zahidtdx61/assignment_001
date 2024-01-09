@@ -305,6 +305,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgba(7, 2, 17, 0.6);
 }
 
 #holiday-offer-img-container {
@@ -387,6 +388,7 @@ html {
     flex-direction: column;
     justify-content: start;
     margin-bottom: 3%;
+    color: rgba(7, 2, 17, 0.6);
 }
 
 #product-img-container {
@@ -404,11 +406,10 @@ html {
     position: relative;
 }
 
-.product-img:hover{
+.product-img:hover {
     right: 50px;
     bottom: 50px;
 }
-
 
 /* writing css for  newsletter section*/
 #news-sletter {
@@ -478,4 +479,8 @@ html {
 
 #subscribe-btn:hover {
     background-color: black;
+}
+
+#ash-color {
+    color: rgba(7, 2, 17, 0.6);
 }
