@@ -401,7 +401,14 @@ html {
 .product-img {
     width: 390px;
     height: 390px;
+    position: relative;
 }
+
+.product-img:hover{
+    right: 50px;
+    bottom: 50px;
+}
+
 
 /* writing css for  newsletter section*/
 #news-sletter {
